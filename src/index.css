@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0D0714;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.container{
+  width: 500px;
+  margin: auto;
+}
+
+input{
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: 2px solid red;
+  width: 100%;
+  outline: none;
+  font-size: 20px;
+}
+
+.input{
+  border: 1px solid #3E1671;
+}
+
+.add__btn{
+  background-color: #9E78CF;
+}
+
+
+.main-title{
+  text-align: center;
+  color: white;
+}
+
+form{
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+ul{
+  margin-top: 16px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second-title{
+  color: white;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.bought__elements{
+  color: #78CFB0;
+  text-decoration: line-through;
+  font-size: 22px;
+  font-size: bold;
+}
+
+.tasks__list{
+  padding: 27px 20px 28px 21px;
+  background-color: #15101C;
+  border-radius: 10px;
+}
+
+.tasks__list:first-child{
+  color: #9E78CF;
+}
